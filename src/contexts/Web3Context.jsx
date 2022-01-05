@@ -114,7 +114,7 @@ export const Web3Provider = ({ children }) => {
         inj_provider
       }}
     >
-      {childern}
+      {children}
     </Web3Context.Provider>
   );
 };

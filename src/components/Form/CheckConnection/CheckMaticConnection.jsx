@@ -52,7 +52,7 @@ const CheckMaticConnection = () => {
     <>
       {providerChainId !== 137 && providerChainId !== 80001 && (
         <div className={classes.msgContainer}>
-          <div className={classess.msg}>
+          <div className={classes.msg}>
             <p className={classes.title}>Message</p>
             <p className={classes.text}>
               To access the MATIC to ETH bridge you need to switch to
